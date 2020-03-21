@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b55de742-6432-4a94-8dfd-09ccb01d1fad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../WEEK5-GUI/WEEK5-GUI.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week1/.idea/JAVA.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week1/song/song.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week2- Animal/Lab2-Animal/Animal.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week3-Employee/Lab3/Lab3-Employee.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4-Accounts/Lab4-Accounts/Lab4-Account.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week6/Week6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week6/src/labs/Control.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week6/src/labs/GUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/src/Control.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/src/GUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/untitled.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../UNI/HCI/.idea/HCI.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../UNI/Web Development/.idea - Copy/web Dev.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../UNI/Web Development/.idea/web Dev.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../UNI/Web Development/Lab Test/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../UNI/Web Development/Lab Test/.idea/Lab Test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../UNI/Web Development/Lab Test/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../UNI/Web Development/Lab Test/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../UNI/Web Development/Lab Test/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../UNI/Web Development/Lab Test/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../UNI/Web Development/Lab Test/website.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../UNI/Web Development/Week 4/.idea/Week 4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../UNI/Web Development/Week 4/MyWebsite.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../UNI/Web Development/Week 4/Stylle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../UNI/Web Development/Week 4/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../UNI/Web Development/Week 4/website.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../UNI/Web Development/Week 5/.idea/untitled.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../UNI/Web Development/Week 6/.idea/Week 6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../UNI/Web Development/Week 6/Lab5-Website.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../UNI/Web Development/Week 6/alertwindow.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../UNI/Web Development/Week 6/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../UNI/Web Development/Week 7/.idea/Week 7.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../UNI/Web Development/Week 7/Test Prep.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../UNI/Web Development/Week 7/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../googlechallenge4.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\Hfied\Desktop\Progming\JAVA\Week7-Files\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YyxUceJ4hAkooC0WdE5RusU7IY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Control" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.inclass.file.Control" />
+      <module name="class" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.inclass.file.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Control" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b55de742-6432-4a94-8dfd-09ccb01d1fad" name="Default Changelist" comment="" />
+      <created>1583928651456</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583928651456</updated>
+      <workItem from="1583928656119" duration="3051000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="174" key="FileChooserDialogImpl" timestamp="1584010980297">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="549" y="174" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1584010980297" />
+    <state width="1491" height="224" key="GridCell.Tab.0.bottom" timestamp="1584011064203">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1491" height="224" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1584011064203" />
+    <state width="1491" height="224" key="GridCell.Tab.0.center" timestamp="1584011064203">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1491" height="224" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1584011064203" />
+    <state width="1491" height="224" key="GridCell.Tab.0.left" timestamp="1584011064203">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1491" height="224" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1584011064203" />
+    <state width="1491" height="224" key="GridCell.Tab.0.right" timestamp="1584011064203">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1491" height="224" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1584011064203" />
+    <state x="209" y="53" key="new project wizard" timestamp="1584011062122">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="209" y="53" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1584011062122" />
+  </component>
+</project>
