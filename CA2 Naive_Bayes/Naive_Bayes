@@ -1,0 +1,17 @@
+import java.util.*;
+import java.io.*;
+
+public class Naive_Bayes {
+
+    static HashMap<String,Integer> Temperature  = new HashMap<>();
+    static HashMap<String,Integer> Aches        = new HashMap<>();
+    static HashMap<String,Integer> Coughs       = new HashMap<>();
+    static HashMap<String,Integer> SoreThroat   = new HashMap<>();
+    static HashMap<String,Integer> DangerZone   = new HashMap<>();
+    static HashMap<String,Integer> Infected     = new HashMap<>();
+
+
+    ArrayLists<Entry> Case = new ArrayLists<Entry>();
+
+
+}
