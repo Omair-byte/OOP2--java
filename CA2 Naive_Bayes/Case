@@ -1,0 +1,126 @@
+package naive_bayes;
+import java.util.*;
+public class Case {
+    // declaring variables
+    private String Temperature;
+    private boolean Aches;
+    private boolean Cough;
+    private boolean SoreThroat;
+    private boolean DangerZone;
+    private boolean Covid19;
+
+    //constructors
+
+    public Case(String temperature, boolean aches, boolean cough, boolean soreThroat, boolean dangerZone) {
+        Temperature= temperature;
+        Aches      = aches;
+        Cough      = cough;
+        SoreThroat = soreThroat;
+        DangerZone = dangerZone;
+    }
+
+    public Case(String temperature, boolean aches, boolean cough, boolean soreThroat, boolean dangerZone, boolean covid19) {
+        Temperature = temperature;
+        Aches       = aches;
+        Cough       = cough;
+        SoreThroat  = soreThroat;
+        DangerZone  = dangerZone;
+        Covid19     = covid19;
+    }
+
+    //toString Method
+
+
+    public String toString()
+    {
+        return "Case" + "Temperature='" + Temperature + '\'' +
+                ", Aches=" + Aches + ", Cough=" + Cough +
+                ", SoreThroat=" + SoreThroat + ", DangerZone=" + DangerZone +
+                ", Covid19=" + Covid19 ;
+    }
+
+
+    public Case(String[] parameters)
+    {
+        Temperature= parameters[0];
+        Aches      = setAches(parameters[1]);
+        Cough      = parameters[2];
+        SoreThroat = parameters[3];
+        DangerZone = parameters[4];
+        Covid19    = parameters[5];
+    }
+
+
+    //Getters and Setters
+    //Setters will also have to change the string "yes" into a boolean value
+
+    public String getTemperature()
+        { return Temperature; }
+    public void setTemperature(String temperature)
+        { Temperature = temperature; }
+
+
+    public boolean isAches()
+        { return Aches; }
+    public void setAches(boolean aches)
+        { Aches = aches; }
+    public void setAches(String aches)
+    {
+        if (aches == "yes")
+            {this.Aches = true;}
+        else
+            {this.Aches = false;}
+    }
+
+
+    public boolean isCough()
+        { return Cough; }
+    public void setCough(boolean cough)
+        { Cough = cough; }
+    public void setCough(String cough)
+    {
+        if (cough =="yes"  )
+            {this.Cough = true;}
+        else
+            {this.Cough = false;}
+    }
+
+
+    public boolean isSoreThroat()
+        { return SoreThroat; }
+    public void setSoreThroat(boolean soreThroat)
+        { SoreThroat = soreThroat; }
+    public void setSoreThroat(String soreThroat)
+    {
+        if (soreThroat == "yes")
+            {this.SoreThroat= true; }
+        else
+            {this.SoreThroat =false;}
+    }
+
+
+    public boolean isDangerZone()
+        { return DangerZone; }
+    public void setDangerZone(boolean dangerZone)
+        { DangerZone = dangerZone; }
+    public void setDangerZone(String dangerZone)
+    {
+        if (dangerZone == "yes")
+            { this.DangerZone = true; }
+        else
+            { this.DangerZone = false;}
+    }
+
+
+    public boolean isCovid19()
+        { return Covid19; }
+    public void setCovid19(boolean covid19)
+        { Covid19 = covid19; }
+    public void setCovid19(String covid19)
+    {
+        if (covid19 == "yes")
+            { this.Covid19 = true; }
+        else
+            { this.Covid19 = false;}
+    }
+}
