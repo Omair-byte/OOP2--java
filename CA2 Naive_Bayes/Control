@@ -1,0 +1,11 @@
+package naive.bayes;
+
+public class Control
+{
+    public static void main(String[] args) 
+    {
+        Test gui = new Test();
+        
+    }
+
+}
