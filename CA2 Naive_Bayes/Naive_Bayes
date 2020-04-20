@@ -1,17 +1,69 @@
+package naive.bayes;
 import java.util.*;
 import java.io.*;
 
 public class Naive_Bayes {
 
-    static HashMap<String,Integer> Temperature  = new HashMap<>();
-    static HashMap<String,Integer> Aches        = new HashMap<>();
-    static HashMap<String,Integer> Coughs       = new HashMap<>();
-    static HashMap<String,Integer> SoreThroat   = new HashMap<>();
-    static HashMap<String,Integer> DangerZone   = new HashMap<>();
-    static HashMap<String,Integer> Infected     = new HashMap<>();
+    //first set of hash maps is for reading the file and running the calculations.
+    static HashMap<String, Integer> Temperature = new HashMap<>();
+    static HashMap<String, Integer> Aches = new HashMap<>();
+    static HashMap<String, Integer> Coughs = new HashMap<>();
+    static HashMap<String, Integer> SoreThroat = new HashMap<>();
+    static HashMap<String, Integer> DangerZone = new HashMap<>();
+    static HashMap<String, Integer> Covid19 = new HashMap<>();
+
+    //second set of is for entering the new conditions to see if they have covid19
+    private ArrayList<Map.Entry> newCase = new ArrayList<>();
+
+    private File csv;
+    private Scanner reader;
+    private float positive;
+    private float negative;
+    private float total;
 
 
-    ArrayLists<Entry> Case = new ArrayLists<Entry>();
+    public Naive_Bayes(String data, ArrayList<Map.Entry> newCase, float positive, float negative, float total, Object values, Object string) {
+        this.newCase = newCase;
+        this.positive = positive;
+        this.negative = negative;
+        this.total = total;
+        fileReader(data);
+
+    }
+
+    public boolean fileReader(String data)
+    {
+        this.csv = new File(data);
+        try
+        {
+            csv = new File(data);
+            reader = new Scanner(csv);
+        } catch (Exception e)
+        {
+            System.out.println("File Error");
+            return false;
+        }
+        return true;
+    }
 
 
+
+    //Getters and Setters for all the variables
+    public ArrayList<Map.Entry> getNewCase() { return newCase; }
+    public void setNewCase(ArrayList<Map.Entry> newCase) { this.newCase = newCase; }
+
+    public File getCsv() { return csv; }
+    public void setCsv(File csv) { this.csv = csv; }
+
+    public Scanner getReader() { return reader; }
+    public void setReader(Scanner reader) { this.reader = reader; }
+
+    public float getPositive() { return positive; }
+    public void setPositive(float positive) { this.positive = positive; }
+
+    public float getNegative() { return negative; }
+    public void setNegative(float negative) { this.negative = negative; }
+
+    public float getTotal() { return total; }
+    public void setTotal(float total) { this.total = total; }
 }
