@@ -12,6 +12,7 @@ and the getters and setters for all of the variables
 
 
 //Summary of the application
+
 The application presents the user with a gui which is very straight forward and has no comand line involved. the user is  
 to check the radio buttons on the screen for the different symptomps of which most of them are are yes or no. 
 These are then stored by the Case class. The application uses the Naive Bayes algorithim which calculates the probability 
