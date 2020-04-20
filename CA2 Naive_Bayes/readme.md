@@ -18,6 +18,7 @@ to check the radio buttons on the screen for the different symptomps of which mo
 These are then stored by the Case class. The application uses the Naive Bayes algorithim which calculates the probability 
 of each of the variables and then calculates the overall probality for that symptom.
 
+If I had more time I would perfect the gui as it had become unresponsive late in the project. I would also add diffenret file sources for increased accuracy.
 
 The video presentation link : 
 
